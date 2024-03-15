@@ -9,7 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d42759a5-ee4d-42d5-952b-600e869272e8" name="Changes" comment="" />
+    <list default="true" id="d42759a5-ee4d-42d5-952b-600e869272e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/005 same pattern-print-function.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +45,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.003 pattern-Triangular.executor": "Run",
+    "Python.004 pattern-fibonacci-Triangle.executor": "Run",
+    "Python.005 same pattern-print-function.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -103,7 +108,7 @@
       <workItem from="1710430711707" duration="5000" />
       <workItem from="1710431189191" duration="32000" />
       <workItem from="1710431497602" duration="102000" />
-      <workItem from="1710509962583" duration="731000" />
+      <workItem from="1710509962583" duration="2097000" />
     </task>
     <servers />
   </component>
@@ -111,6 +116,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$004_pattern_fibonacci_Triangle.coverage" NAME="004 pattern-fibonacci-Triangle Coverage Results" MODIFIED="1710510911359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$003_pattern_Triangular.coverage" NAME="003 pattern-Triangular Coverage Results" MODIFIED="1710510585344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$005_same_pattern_print_function.coverage" NAME="005 same pattern-print-function Coverage Results" MODIFIED="1710512047581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
