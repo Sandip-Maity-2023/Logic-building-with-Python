@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d42759a5-ee4d-42d5-952b-600e869272e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/006 Data analytics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/007 Data analytics2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/008 simple calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/009 Factorial of a Number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,10 @@
     "Python.003 pattern-Triangular.executor": "Run",
     "Python.004 pattern-fibonacci-Triangle.executor": "Run",
     "Python.005 same pattern-print-function.executor": "Run",
-    "Python.006 Data analytics.executor": "Run",
+    "Python.006 Data analytics.executor": "Debug",
+    "Python.007 Data analytics2.executor": "Run",
+    "Python.008 simple calculator.executor": "Run",
+    "Python.009 Factorial of a Number.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -66,7 +70,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.007 Data analytics2">
+  <component name="RunManager" selected="Python.009 Factorial of a Number">
     <configuration name="003 pattern-Triangular" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Logic-building-with-Python" />
       <option name="ENV_FILES" value="" />
@@ -130,8 +134,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="009 Factorial of a Number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Logic-building-with-Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/009 Factorial of a Number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.009 Factorial of a Number" />
         <item itemvalue="Python.007 Data analytics2" />
         <item itemvalue="Python.006 Data analytics" />
       </list>
@@ -159,7 +184,7 @@
       <workItem from="1710431189191" duration="32000" />
       <workItem from="1710431497602" duration="102000" />
       <workItem from="1710509962583" duration="2688000" />
-      <workItem from="1711263819606" duration="515000" />
+      <workItem from="1711263819606" duration="2838000" />
     </task>
     <servers />
   </component>
@@ -167,9 +192,12 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Logic_building_with_Python$006_Data_analytics.coverage" NAME="006 Data analytics Coverage Results" MODIFIED="1711264232017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$006_Data_analytics.coverage" NAME="006 Data analytics Coverage Results" MODIFIED="1711264412800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$004_pattern_fibonacci_Triangle.coverage" NAME="004 pattern-fibonacci-Triangle Coverage Results" MODIFIED="1710510911359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$007_Data_analytics2.coverage" NAME="007 Data analytics2 Coverage Results" MODIFIED="1711265543311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$003_pattern_Triangular.coverage" NAME="003 pattern-Triangular Coverage Results" MODIFIED="1711264145170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$005_same_pattern_print_function.coverage" NAME="005 same pattern-print-function Coverage Results" MODIFIED="1710512047581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$008_simple_calculator.coverage" NAME="008 simple calculator Coverage Results" MODIFIED="1711265554177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$009_Factorial_of_a_Number.coverage" NAME="009 Factorial of a Number Coverage Results" MODIFIED="1711266384003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
