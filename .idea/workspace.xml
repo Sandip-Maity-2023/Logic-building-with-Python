@@ -9,11 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d42759a5-ee4d-42d5-952b-600e869272e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/010 Fibonacci Series.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/011 Prime numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d42759a5-ee4d-42d5-952b-600e869272e8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,32 +42,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.003 pattern-Triangular.executor": "Run",
-    "Python.004 pattern-fibonacci-Triangle.executor": "Run",
-    "Python.005 same pattern-print-function.executor": "Run",
-    "Python.006 Data analytics.executor": "Debug",
-    "Python.007 Data analytics2.executor": "Run",
-    "Python.008 simple calculator.executor": "Run",
-    "Python.009 Factorial of a Number.executor": "Run",
-    "Python.010 Fibonacci Series.executor": "Run",
-    "Python.011 Prime numbers.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.003 pattern-Triangular.executor&quot;: &quot;Run&quot;,
+    &quot;Python.004 pattern-fibonacci-Triangle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.005 same pattern-print-function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.006 Data analytics.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.007 Data analytics2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.008 simple calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.009 Factorial of a Number.executor&quot;: &quot;Run&quot;,
+    &quot;Python.010 Fibonacci Series.executor&quot;: &quot;Run&quot;,
+    &quot;Python.011 Prime numbers.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.011 Prime numbers">
     <configuration name="003 pattern-Triangular" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Logic-building-with-Python" />
@@ -246,6 +242,7 @@
       <workItem from="1711263819606" duration="2838000" />
       <workItem from="1711688995693" duration="2538000" />
       <workItem from="1711691998853" duration="129000" />
+      <workItem from="1713777966451" duration="26000" />
     </task>
     <servers />
   </component>
