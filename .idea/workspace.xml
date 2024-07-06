@@ -9,7 +9,25 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d42759a5-ee4d-42d5-952b-600e869272e8" name="Changes" comment="" />
+    <list default="true" id="d42759a5-ee4d-42d5-952b-600e869272e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/016 turtle pattern output.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/018 turtle pattern.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/019 loop statement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/020 problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/021 basics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/022 functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/023 quiz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ganesh chaturthi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizes2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizes3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizes4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizes5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizes6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quizes7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/016 find the output.py" beforeDir="false" afterPath="$PROJECT_DIR$/017 area of circle.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +75,23 @@
     &quot;Python.013 guess the output.executor&quot;: &quot;Run&quot;,
     &quot;Python.014 python quiz.executor&quot;: &quot;Run&quot;,
     &quot;Python.015 calculate the value.executor&quot;: &quot;Run&quot;,
+    &quot;Python.016 find the output.executor&quot;: &quot;Run&quot;,
+    &quot;Python.016 turtle pattern output.executor&quot;: &quot;Run&quot;,
+    &quot;Python.017 area of circle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.018 turtle pattern.executor&quot;: &quot;Run&quot;,
+    &quot;Python.019 loop statement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.020 problem.executor&quot;: &quot;Run&quot;,
+    &quot;Python.021 basics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.022 functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.023 quiz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Ganesh chaturthi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quizes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quizes2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quizes3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quizes4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quizes5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quizes6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quizes7.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
@@ -88,29 +123,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/003 pattern-Triangular.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="006 Data analytics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Logic-building-with-Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/006 Data analytics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,13 +223,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="021 basics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Logic-building-with-Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/021 basics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.021 basics" />
         <item itemvalue="Python.011 Prime numbers" />
         <item itemvalue="Python.010 Fibonacci Series" />
         <item itemvalue="Python.009 Factorial of a Number" />
         <item itemvalue="Python.007 Data analytics2" />
-        <item itemvalue="Python.006 Data analytics" />
       </list>
     </recent_temporary>
   </component>
@@ -249,6 +284,14 @@
       <workItem from="1713777966451" duration="26000" />
       <workItem from="1714331547981" duration="1170000" />
       <workItem from="1715684055738" duration="17000" />
+      <workItem from="1719554951518" duration="23000" />
+      <workItem from="1719691382817" duration="1397000" />
+      <workItem from="1719983562532" duration="2492000" />
+      <workItem from="1720017441760" duration="20000" />
+      <workItem from="1720076180051" duration="3573000" />
+      <workItem from="1720084180304" duration="22000" />
+      <workItem from="1720144345642" duration="2696000" />
+      <workItem from="1720250970152" duration="2783000" />
     </task>
     <servers />
   </component>
@@ -256,18 +299,35 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$020_problem.coverage" NAME="020 problem Coverage Results" MODIFIED="1720145263263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$004_pattern_fibonacci_Triangle.coverage" NAME="004 pattern-fibonacci-Triangle Coverage Results" MODIFIED="1710510911359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$005_same_pattern_print_function.coverage" NAME="005 same pattern-print-function Coverage Results" MODIFIED="1710512047581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Logic_building_with_Python$008_simple_calculator.coverage" NAME="008 simple calculator Coverage Results" MODIFIED="1711265554177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Logic_building_with_Python$010_Fibonacci_Series.coverage" NAME="010 Fibonacci Series Coverage Results" MODIFIED="1711690277264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Logic_building_with_Python$012_logical_problems.coverage" NAME="012 logical problems Coverage Results" MODIFIED="1714331935910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$Ganesh_chaturthi.coverage" NAME="Ganesh chaturthi Coverage Results" MODIFIED="1719997510547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$quizes.coverage" NAME="quizes Coverage Results" MODIFIED="1720077994755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$quizes7.coverage" NAME="quizes7 Coverage Results" MODIFIED="1720081593973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$006_Data_analytics.coverage" NAME="006 Data analytics Coverage Results" MODIFIED="1711264412800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$007_Data_analytics2.coverage" NAME="007 Data analytics2 Coverage Results" MODIFIED="1711265543311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Logic_building_with_Python$011_Prime_numbers.coverage" NAME="011 Prime numbers Coverage Results" MODIFIED="1714331655231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Logic_building_with_Python$003_pattern_Triangular.coverage" NAME="003 pattern-Triangular Coverage Results" MODIFIED="1711264145170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$019_loop_statement.coverage" NAME="019 loop statement Coverage Results" MODIFIED="1720077333152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$003_pattern_Triangular.coverage" NAME="003 pattern-Triangular Coverage Results" MODIFIED="1720145253159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$014_python_quiz.coverage" NAME="014 python quiz Coverage Results" MODIFIED="1714332371708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Logic_building_with_Python$013_guess_the_output.coverage" NAME="013 guess the output Coverage Results" MODIFIED="1714332145746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$015_calculate_the_value.coverage" NAME="015 calculate the value Coverage Results" MODIFIED="1714332560564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$quizes5.coverage" NAME="quizes5 Coverage Results" MODIFIED="1720081126454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$quizes2.coverage" NAME="quizes2 Coverage Results" MODIFIED="1720080612887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$017_area_of_circle.coverage" NAME="017 area of circle Coverage Results" MODIFIED="1719691953858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$quizes6.coverage" NAME="quizes6 Coverage Results" MODIFIED="1720081322537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$023_quiz.coverage" NAME="023 quiz Coverage Results" MODIFIED="1720267253593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$008_simple_calculator.coverage" NAME="008 simple calculator Coverage Results" MODIFIED="1711265554177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$quizes3.coverage" NAME="quizes3 Coverage Results" MODIFIED="1720080755188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$021_basics.coverage" NAME="021 basics Coverage Results" MODIFIED="1720265648120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$010_Fibonacci_Series.coverage" NAME="010 Fibonacci Series Coverage Results" MODIFIED="1711690277264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$018_turtle_pattern.coverage" NAME="018 turtle pattern Coverage Results" MODIFIED="1719996798735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$022_functions.coverage" NAME="022 functions Coverage Results" MODIFIED="1720265657765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$012_logical_problems.coverage" NAME="012 logical problems Coverage Results" MODIFIED="1714331935910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$quizes4.coverage" NAME="quizes4 Coverage Results" MODIFIED="1720080980073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$011_Prime_numbers.coverage" NAME="011 Prime numbers Coverage Results" MODIFIED="1714331655231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$013_guess_the_output.coverage" NAME="013 guess the output Coverage Results" MODIFIED="1714332145746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$009_Factorial_of_a_Number.coverage" NAME="009 Factorial of a Number Coverage Results" MODIFIED="1711266384003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$016_find_the_output.coverage" NAME="016 find the output Coverage Results" MODIFIED="1719983745989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$016_turtle_pattern_output.coverage" NAME="016 turtle pattern output Coverage Results" MODIFIED="1719996831572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
