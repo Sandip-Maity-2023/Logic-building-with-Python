@@ -10,14 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d42759a5-ee4d-42d5-952b-600e869272e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/025 chocolates distribution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/026 flights_count.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/027 Dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028 date &amp; time functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029 find_common_characters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/030 random.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30 tuple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/31 quiz8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hakhathon Q1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +79,7 @@
     "Python.30 tuple.executor": "Run",
     "Python.31 quiz8.executor": "Run",
     "Python.Ganesh chaturthi.executor": "Run",
+    "Python.Hakhathon Q1.executor": "Run",
     "Python.quizes.executor": "Run",
     "Python.quizes2.executor": "Run",
     "Python.quizes3.executor": "Run",
@@ -108,7 +102,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Hakhathon Q1">
     <configuration name="003 pattern-Triangular" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Logic-building-with-Python" />
       <option name="ENV_FILES" value="" />
@@ -124,29 +118,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/003 pattern-Triangular.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="007 Data analytics2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Logic-building-with-Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/007 Data analytics2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,13 +218,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Hakhathon Q1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Logic-building-with-Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hakhathon Q1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Hakhathon Q1" />
         <item itemvalue="Python.021 basics" />
         <item itemvalue="Python.011 Prime numbers" />
         <item itemvalue="Python.010 Fibonacci Series" />
         <item itemvalue="Python.009 Factorial of a Number" />
-        <item itemvalue="Python.007 Data analytics2" />
       </list>
     </recent_temporary>
   </component>
@@ -298,6 +292,7 @@
       <workItem from="1720324072859" duration="314000" />
       <workItem from="1720468091996" duration="1477000" />
       <workItem from="1720487735580" duration="6061000" />
+      <workItem from="1720554479355" duration="3019000" />
     </task>
     <servers />
   </component>
@@ -332,6 +327,7 @@
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$015_calculate_the_value.coverage" NAME="015 calculate the value Coverage Results" MODIFIED="1714332560564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$quizes5.coverage" NAME="quizes5 Coverage Results" MODIFIED="1720081126454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$quizes2.coverage" NAME="quizes2 Coverage Results" MODIFIED="1720080612887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$Hakhathon_Q1.coverage" NAME="Hakhathon Q1 Coverage Results" MODIFIED="1720557041877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$028_date___time_functions.coverage" NAME="028 date &amp; time functions Coverage Results" MODIFIED="1720500253880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$024_FileOpen.coverage" NAME="024 FileOpen Coverage Results" MODIFIED="1720277290477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$029_find_common_characters.coverage" NAME="029 find_common_characters Coverage Results" MODIFIED="1720529897764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
