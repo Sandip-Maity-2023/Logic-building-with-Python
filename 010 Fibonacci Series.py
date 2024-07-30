@@ -3,7 +3,7 @@ def fibonacci(n):
         return n
     else:
         return fibonacci(n-1)+fibonacci(n-2)
-terms=int(input("Enter the number of terms:"))
+terms = int(input("Enter the number of terms:"))
 print("Fibonacci:")
 for i in range(terms):
  print(fibonacci(i))

@@ -1,4 +1,4 @@
-import turtle
+import turtle      #turtle is a library
 wn=turtle.Screen()
 wn.setup(400,400)
 circle_rad=50
