@@ -10,7 +10,7 @@ for number in numbers_list:
         number=number//10
         if last_digit>4:
             count+=1
-            break
+            break;
         count+=1
         counter+=1
 print(count)
