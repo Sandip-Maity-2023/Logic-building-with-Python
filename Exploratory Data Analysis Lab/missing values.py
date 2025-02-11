@@ -28,26 +28,29 @@ print("\nlat 5 rows of the data set\n")
 print(df.tail())
 
 print('\n')
+
 #deleting the rows from where have none values
+
 print(df.dropna())
 
 print('\n')
 
 print('Handling the missing value in age 5 is 10,000')
-df.loc[5,'Age']='23'
+df.loc[5, 'Age']=23
 print(df)
 
-df.loc[3,'Department']='DA'
+df.loc[3, 'Department']='DA'
 print(df)
 
-df.loc[1,'Salary']='9000'
+df.loc[1, 'Salary']=9000
 print(df)
 
-df.loc[5,'Department']='HR'
+df.loc[5, 'Department']='HR'
 print(df)
 
 #calculating average salary
 #average=sum('Salary')/len('Salary')
+
 average=df['Salary'].mean()
 print(f"Average Salary: {average}")
 
@@ -56,6 +59,7 @@ print(f"Average Salary: {average}")
 }
 print(update)"""
 
-df['Salary'].fillna(average,inplace=True)
+df['Salary'].fillna(average, inplace=True)
 print(df)
+
 #df.loc[5,'Salary']='avg()'
