@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d42759a5-ee4d-42d5-952b-600e869272e8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Linear Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Linear Regression.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,6 +334,7 @@
       <workItem from="1739287140508" duration="5776000" />
       <workItem from="1739370670404" duration="7030000" />
       <workItem from="1739898127151" duration="497000" />
+      <workItem from="1740283070005" duration="1675000" />
     </task>
     <servers />
   </component>
