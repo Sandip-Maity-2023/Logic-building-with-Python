@@ -11,7 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d42759a5-ee4d-42d5-952b-600e869272e8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/random sampling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/random sampling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Linear Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/03Linear Regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/random sampling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/05random sampling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/sklearn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/04sklearn.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +125,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -349,6 +351,8 @@
       <workItem from="1739898127151" duration="497000" />
       <workItem from="1740283070005" duration="1675000" />
       <workItem from="1740565722065" duration="5154000" />
+      <workItem from="1741100857528" duration="1941000" />
+      <workItem from="1741106742560" duration="310000" />
     </task>
     <servers />
   </component>
