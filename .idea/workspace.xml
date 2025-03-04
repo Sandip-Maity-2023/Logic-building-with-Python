@@ -11,9 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d42759a5-ee4d-42d5-952b-600e869272e8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Linear Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/03Linear Regression.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/random sampling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/05random sampling.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/sklearn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/04sklearn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/05random sampling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/05random sampling.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,6 +351,7 @@
       <workItem from="1740565722065" duration="5154000" />
       <workItem from="1741100857528" duration="1941000" />
       <workItem from="1741106742560" duration="310000" />
+      <workItem from="1741107320536" duration="2107000" />
     </task>
     <servers />
   </component>
