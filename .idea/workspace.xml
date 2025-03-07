@@ -10,7 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d42759a5-ee4d-42d5-952b-600e869272e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/05random sampling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/05random sampling.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/06Min_Max_scaling[1].ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Min_Max_scaling[1].ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/wine_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practice/nptel.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/01 pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/01 pandas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +57,16 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2dgVEPuIATnD3xHTpZyR4QdKy1S" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.003 pattern-Triangular.executor": "Run",
     "Python.004 pattern-fibonacci-Triangle.executor": "Run",
     "Python.005 same pattern-print-function.executor": "Run",
@@ -352,11 +361,15 @@
       <workItem from="1741106742560" duration="310000" />
       <workItem from="1741107320536" duration="2107000" />
       <workItem from="1741110412295" duration="1316000" />
+      <workItem from="1741283673324" duration="429000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
