@@ -10,18 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d42759a5-ee4d-42d5-952b-600e869272e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.virtual_documents/Exploratory Data Analysis Lab/Project/Di/Diabetes_prediction_model.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Project/1linear_regression.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Project/Di/environment.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Project/Di/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Project/linear_regression[1].ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Project/r.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 10/delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 4/Untitled[1].ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 4/placement[1].csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/boxplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/min_max.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/diabetes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/img.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 10/feature.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 10/feature.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 3/02 pandas.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 3/02 pandas.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 3/Book3.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 3/Book3.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Project/Final_Internal_Marks.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Project/Final_Internal_Marks.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Project/model_marks_calculation.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 4/03Linear Regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 4/03Linear Regression.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 5/04sklearn.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 5/04sklearn.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 6/05random sampling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 6/05random sampling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Project/Di/d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Project/Di/d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exploratory Data Analysis Lab/Project/Di/img.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +118,7 @@
     "Python.Hakhathon Q1.executor": "Run",
     "Python.clean_data.executor": "Run",
     "Python.d.executor": "Run",
+    "Python.delete.executor": "Run",
     "Python.imputation.executor": "Run",
     "Python.missing values.executor": "Run",
     "Python.p.executor": "Run",
@@ -155,7 +161,7 @@
       <recent name="C:\Users\12san\OneDrive\Documents\GitHub\Coding-Decoding\Logic-building-with-Python\Exploratory Data Analysis Lab\Day 6" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.delete">
     <configuration name="003 pattern-Triangular" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Logic-building-with-Python" />
       <option name="ENV_FILES" value="" />
@@ -171,29 +177,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/003 pattern-Triangular.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="005 same pattern-print-function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Logic-building-with-Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/005 same pattern-print-function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,6 +254,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="delete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Logic-building-with-Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 10/delete.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="missing values" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Logic-building-with-Python" />
       <option name="ENV_FILES" value="" />
@@ -296,11 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.delete" />
         <item itemvalue="Python.d" />
         <item itemvalue="Python.clean_data" />
         <item itemvalue="Python.missing values" />
         <item itemvalue="Python.01 pandas" />
-        <item itemvalue="Python.005 same pattern-print-function" />
       </list>
     </recent_temporary>
   </component>
@@ -377,6 +383,8 @@
       <workItem from="1742921930737" duration="7617000" />
       <workItem from="1743511827346" duration="2132000" />
       <workItem from="1743840923765" duration="2231000" />
+      <workItem from="1743856091205" duration="876000" />
+      <workItem from="1744128239469" duration="121000" />
     </task>
     <servers />
   </component>
@@ -416,13 +424,14 @@
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$018_turtle_pattern.coverage" NAME="018 turtle pattern Coverage Results" MODIFIED="1722235383527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$012_logical_problems.coverage" NAME="012 logical problems Coverage Results" MODIFIED="1722234775265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$quizes4.coverage" NAME="quizes4 Coverage Results" MODIFIED="1720080980073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Logic_building_with_Python$d.coverage" NAME="d Coverage Results" MODIFIED="1743853453182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exploratory Data Analysis Lab/Project/Di" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$d.coverage" NAME="d Coverage Results" MODIFIED="1743856269269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exploratory Data Analysis Lab/Project/Di" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$31_quiz8.coverage" NAME="31 quiz8 Coverage Results" MODIFIED="1722235893312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$p.coverage" NAME="p Coverage Results" MODIFIED="1722235829475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$013_guess_the_output.coverage" NAME="013 guess the output Coverage Results" MODIFIED="1714332145746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$009_Factorial_of_a_Number.coverage" NAME="009 Factorial of a Number Coverage Results" MODIFIED="1711266384003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$033_valid_parenthesis.coverage" NAME="033 valid parenthesis Coverage Results" MODIFIED="1722235772024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$imputation.coverage" NAME="imputation Coverage Results" MODIFIED="1738094331873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Logic_building_with_Python$delete.coverage" NAME="delete Coverage Results" MODIFIED="1744128294645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Exploratory Data Analysis Lab/Day 10" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$simple_calculator.coverage" NAME="simple calculator Coverage Results" MODIFIED="1722106996487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$Ganesh_chaturthi.coverage" NAME="Ganesh chaturthi Coverage Results" MODIFIED="1735666066911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Logic_building_with_Python$035_simple_interest_calculator.coverage" NAME="035 simple interest calculator Coverage Results" MODIFIED="1722236385727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

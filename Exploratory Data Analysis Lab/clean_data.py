@@ -18,7 +18,7 @@ print(df)
 
 #forward fill
 df['Age_Fill_Forward']=df['Age'].ffill()
-
+df['Age_Fill']
 #Backward fill
 df['Age_Fill_Backward']=df['Age'].bfill()
 

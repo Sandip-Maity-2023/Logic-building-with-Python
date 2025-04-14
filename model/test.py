@@ -12,6 +12,8 @@ from PIL import Image
 
 # load the diabetes dataset
 diabetes_df = pd.read_csv('diabetes.csv')
+print(diabetes_df.head()) # Display the first few rows of the dataset
+
 
 # group the data by outcome to get a sense of the distribution
 diabetes_mean_df = diabetes_df.groupby('Outcome').mean()
@@ -98,9 +100,4 @@ def app():
 
 if __name__ == '__main__':
     app()
-
-
-
-
-
 
