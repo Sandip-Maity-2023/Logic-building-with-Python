@@ -1,0 +1,107 @@
+import json
+from itertools import combinations, product
+from typing import List, Tuple
+
+# ---------------- Utility functions ---------------- #
+def to_minutes(t: str) -> int:
+    h, m = map(int, t.split(":"))
+    return h * 60 + m
+
+def to_hhmm(m: int) -> str:
+    return f"{m // 60:02d}:{m % 60:02d}"
+
+def interval_overlap(intervals: List[Tuple[int, int]]) -> Tuple[int, Tuple[int, int]]:
+    """Return overlap length (minutes) and intersection interval."""
+    start = max(s for s, e in intervals)
+    end = min(e for s, e in intervals)
+    if end > start:
+        return end - start, (start, end)
+    return 0, None
+
+# ---------------- Core algorithm ---------------- #
+def compute_candidates(students):
+    candidates = []
+    ids = sorted(students.keys())
+
+    for r in [2, 3]:
+        for group in combinations(ids, r):
+            max_overlap = 0
+            best_slot = None
+
+            # Generate all combinations of free slots across group members
+            free_lists = [students[s]["free_mins"] for s in group]
+            for combo in product(*free_lists):
+                overlap, slot = interval_overlap(combo)
+                if overlap > max_overlap:
+                    max_overlap = overlap
+                    best_slot = slot
+
+            if max_overlap > 0:
+                # Compute skill diversity
+                skill_union = set().union(*(students[s]["skills"] for s in group))
+                skill_div = len(skill_union)
+                score = max_overlap * skill_div
+                candidates.append({
+                    "group": list(group),
+                    "r": r,
+                    "slot": best_slot,
+                    "overlap": max_overlap,
+                    "skill_div": skill_div,
+                    "score": score
+                })
+
+    # Sort by: score ↓, size ↑ (pair before trio), lexicographic group
+    candidates.sort(key=lambda c: (-c["score"], c["r"], c["group"]))
+    return candidates
+
+def greedy_selection(candidates, all_students):
+    used = set()
+    selected = []
+
+    for c in candidates:
+        if any(s in used for s in c["group"]):
+            continue
+        selected.append(c)
+        used.update(c["group"])
+
+    unmatched = sorted(list(set(all_students) - used))
+    return selected, unmatched
+
+# ---------------- Main entry point ---------------- #
+def main():
+    print("=== Study Buddy Matcher ===\n")
+    path = input("Enter JSON file path (default: students.json): ").strip() or "students.json"
+
+    with open(path, "r") as f:
+        data = json.load(f)
+
+    students = {}
+    for stu in data["students"]:
+        sid = stu["id"]
+        students[sid] = {
+            "skills": set(stu["skills"]),
+            "free_mins": [(to_minutes(a), to_minutes(b)) for a, b in stu["free"]]
+        }
+
+    candidates = compute_candidates(students)
+    selected, unmatched = greedy_selection(candidates, students.keys())
+
+    print("\n--- All Candidate Groups ---")
+    for c in candidates:
+        s = ",".join(c["group"])
+        slot = f"{to_hhmm(c['slot'][0])}-{to_hhmm(c['slot'][1])}"
+        print(f"{s:10} | overlap={c['overlap']:3} | skills={c['skill_div']} | score={c['score']:3} | slot={slot}")
+
+    print("\n--- Final Selected Groups ---")
+    for i, c in enumerate(selected, start=1):
+        members = ",".join(c["group"])
+        slot = f"{to_hhmm(c['slot'][0])}-{to_hhmm(c['slot'][1])}"
+        print(f"G{i}: Members=[{members}] | Slot={slot} | Score={c['score']}")
+
+    if unmatched:
+        print("\nUnmatched students:", unmatched)
+    else:
+        print("\nAll students matched!")
+
+if __name__ == "__main__":
+    main()
