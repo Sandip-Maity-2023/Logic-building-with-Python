@@ -1,0 +1,545 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Pizza Hut",
+      "latitude": 28.63,
+      "longitude": 77.21,
+      "rating": 3.72,
+      "cost_for_two": 900,
+      "rating_count": 6,
+      "dishes": [
+        "garlicbread",
+        "pasta",
+        "icecream",
+        "tea",
+        "juices"
+      ],
+      "cuisines": [
+        "Beverages",
+        "Desserts",
+        "Italian"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dominos",
+      "latitude": 27.0,
+      "longitude": 78.0,
+      "rating": 4.0,
+      "cost_for_two": 500,
+      "rating_count": 10,
+      "dishes": [
+        "garlicbread",
+        "pasta",
+        "icecream",
+        "chocolates",
+        "tea",
+        "juices"
+      ],
+      "cuisines": [
+        "Beverages",
+        "Desserts",
+        "Italian"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Beijing Street",
+      "latitude": 28.5,
+      "longitude": 77.5,
+      "rating": 3.0,
+      "cost_for_two": 400,
+      "rating_count": 7,
+      "dishes": [
+        "noodles",
+        "chillypaneer",
+        "alootikki",
+        "vadapao",
+        "springroll",
+        "ham"
+      ],
+      "cuisines": [
+        "Chinese",
+        "Continental",
+        "Fast Food"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Kake Di Hatti",
+      "latitude": 29.0,
+      "longitude": 76.9,
+      "rating": 5.0,
+      "cost_for_two": 200,
+      "rating_count": 10,
+      "dishes": [
+        "chholebature",
+        "rajmachawal",
+        "dosa",
+        "idli",
+        "noodles",
+        "chillypaneer",
+        "icecream",
+        "softdrinks"
+      ],
+      "cuisines": [
+        "Beverages",
+        "Chinese",
+        "Desserts",
+        "North Indian",
+        "South Indian"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Italian Joint",
+      "latitude": 25.0,
+      "longitude": 79.0,
+      "rating": 4.0,
+      "cost_for_two": 300,
+      "rating_count": 9,
+      "dishes": [
+        "noodles",
+        "chillypaneer",
+        "garlicbread",
+        "pasta",
+        "springroll",
+        "ham",
+        "tea",
+        "juices"
+      ],
+      "cuisines": [
+        "Beverages",
+        "Chinese",
+        "Continental",
+        "Italian"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Chinese Yum",
+      "latitude": 28.0,
+      "longitude": 78.0,
+      "rating": 3.0,
+      "cost_for_two": 400,
+      "rating_count": 5,
+      "dishes": [
+        "dosa",
+        "idli",
+        "noodles",
+        "chillypaneer",
+        "icecream",
+        "tea",
+        "softdrinks",
+        "juices"
+      ],
+      "cuisines": [
+        "Beverages",
+        "Chinese",
+        "Desserts",
+        "South Indian"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sagar Ratna",
+      "latitude": 30.0,
+      "longitude": 79.0,
+      "rating": 4.9,
+      "cost_for_two": 450,
+      "rating_count": 7,
+      "dishes": [
+        "chholebature",
+        "rajmachawal",
+        "dosa",
+        "idli",
+        "noodles",
+        "chillypaneer",
+        "tea",
+        "softdrinks"
+      ],
+      "cuisines": [
+        "Beverages",
+        "Chinese",
+        "North Indian",
+        "South Indian"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "QDs",
+      "latitude": 29.9,
+      "longitude": 76.9,
+      "rating": 2.9,
+      "cost_for_two": 1000,
+      "rating_count": 4,
+      "dishes": [
+        "noodles",
+        "chillypaneer",
+        "garlicbread",
+        "pasta",
+        "springroll",
+        "ham",
+        "chocolates",
+        "tea",
+        "juices"
+      ],
+      "cuisines": [
+        "Beverages",
+        "Chinese",
+        "Continental",
+        "Desserts",
+        "Italian"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "D Cafe",
+      "latitude": 29.0,
+      "longitude": 78.0,
+      "rating": 4.0,
+      "cost_for_two": 500,
+      "rating_count": 10,
+      "dishes": [
+        "chholebature",
+        "rajmachawal",
+        "dosa",
+        "idli",
+        "noodles",
+        "chillypaneer",
+        "alootikki",
+        "vadapao",
+        "garlicbread",
+        "pasta",
+        "springroll",
+        "ham",
+        "icecream",
+        "pastries",
+        "chocolates",
+        "tea",
+        "softdrinks",
+        "juices"
+      ],
+      "cuisines": [
+        "Beverages",
+        "Chinese",
+        "Continental",
+        "Desserts",
+        "Fast Food",
+        "Italian",
+        "North Indian",
+        "South Indian"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Tamasha",
+      "latitude": 27.9,
+      "longitude": 78.5,
+      "rating": 2.9,
+      "cost_for_two": 300,
+      "rating_count": 10,
+      "dishes": [
+        "chholebature",
+        "rajmachawal",
+        "dosa",
+        "idli",
+        "garlicbread",
+        "pasta",
+        "springroll",
+        "ham",
+        "tea",
+        "softdrinks"
+      ],
+      "cuisines": [
+        "Beverages",
+        "Continental",
+        "Italian",
+        "North Indian",
+        "South Indian"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Masala Trail",
+      "latitude": 30.0,
+      "longitude": 77.0,
+      "rating": 5.0,
+      "cost_for_two": 500,
+      "rating_count": 8,
+      "dishes": [
+        "chholebature",
+        "rajmachawal",
+        "dosa",
+        "idli",
+        "noodles",
+        "chillypaneer",
+        "alootikki",
+        "vadapao",
+        "softdrinks"
+      ],
+      "cuisines": [
+        "Beverages",
+        "Chinese",
+        "Fast Food",
+        "North Indian",
+        "South Indian"
+      ]
+    }
+  ],
+  "training_rows": [
+    {
+      "rating": 5.0,
+      "distance": 7.0,
+      "cost": 200.0,
+      "yesno": 1
+    },
+    {
+      "rating": 2.0,
+      "distance": 10.0,
+      "cost": 600.0,
+      "yesno": 0
+    },
+    {
+      "rating": 5.0,
+      "distance": 1.0,
+      "cost": 700.0,
+      "yesno": 1
+    },
+    {
+      "rating": 2.0,
+      "distance": 1.0,
+      "cost": 200.0,
+      "yesno": 1
+    },
+    {
+      "rating": 4.0,
+      "distance": 12.0,
+      "cost": 200.0,
+      "yesno": 0
+    },
+    {
+      "rating": 3.0,
+      "distance": 20.0,
+      "cost": 50.0,
+      "yesno": 0
+    },
+    {
+      "rating": 5.0,
+      "distance": 15.0,
+      "cost": 300.0,
+      "yesno": 1
+    },
+    {
+      "rating": 2.0,
+      "distance": 4.0,
+      "cost": 350.0,
+      "yesno": 1
+    },
+    {
+      "rating": 4.3,
+      "distance": 4.0,
+      "cost": 1200.0,
+      "yesno": 0
+    },
+    {
+      "rating": 3.7,
+      "distance": 8.0,
+      "cost": 200.0,
+      "yesno": 1
+    },
+    {
+      "rating": 2.0,
+      "distance": 3.0,
+      "cost": 400.0,
+      "yesno": 1
+    },
+    {
+      "rating": 4.6,
+      "distance": 10.0,
+      "cost": 250.0,
+      "yesno": 1
+    },
+    {
+      "rating": 1.3,
+      "distance": 14.0,
+      "cost": 1000.0,
+      "yesno": 0
+    },
+    {
+      "rating": 5.0,
+      "distance": 4.0,
+      "cost": 500.0,
+      "yesno": 1
+    },
+    {
+      "rating": 3.0,
+      "distance": 5.0,
+      "cost": 600.0,
+      "yesno": 1
+    },
+    {
+      "rating": 4.0,
+      "distance": 2.0,
+      "cost": 1200.0,
+      "yesno": 0
+    },
+    {
+      "rating": 3.5,
+      "distance": 1.0,
+      "cost": 350.0,
+      "yesno": 1
+    },
+    {
+      "rating": 1.0,
+      "distance": 2.0,
+      "cost": 300.0,
+      "yesno": 1
+    },
+    {
+      "rating": 4.0,
+      "distance": 7.0,
+      "cost": 1300.0,
+      "yesno": 0
+    },
+    {
+      "rating": 2.0,
+      "distance": 5.0,
+      "cost": 340.0,
+      "yesno": 1
+    }
+  ],
+  "mood_votes": [
+    {
+      "dish": "Cholle Bhature",
+      "mood": "happie",
+      "weight": 3
+    },
+    {
+      "dish": "Garlic Bread",
+      "mood": "happie",
+      "weight": 2
+    },
+    {
+      "dish": "Dosa",
+      "mood": "happie",
+      "weight": 1
+    },
+    {
+      "dish": "Soft Drinks",
+      "mood": "angrie",
+      "weight": 3
+    },
+    {
+      "dish": "Pasta",
+      "mood": "angrie",
+      "weight": 2
+    },
+    {
+      "dish": "Spring Roll",
+      "mood": "angrie",
+      "weight": 1
+    },
+    {
+      "dish": "Juices",
+      "mood": "dehydratie",
+      "weight": 3
+    },
+    {
+      "dish": "Soft Drinks",
+      "mood": "dehydratie",
+      "weight": 2
+    },
+    {
+      "dish": "Tea",
+      "mood": "dehydratie",
+      "weight": 1
+    },
+    {
+      "dish": "Ice Cream",
+      "mood": "depressie",
+      "weight": 3
+    },
+    {
+      "dish": "Chocolates",
+      "mood": "depressie",
+      "weight": 2
+    },
+    {
+      "dish": "Pastries",
+      "mood": "depressie",
+      "weight": 1
+    },
+    {
+      "dish": "Noodles",
+      "mood": "excitie",
+      "weight": 3
+    },
+    {
+      "dish": "Chilly Paneer",
+      "mood": "excitie",
+      "weight": 2
+    },
+    {
+      "dish": "Vada Pao",
+      "mood": "excitie",
+      "weight": 1
+    },
+    {
+      "dish": "Idli",
+      "mood": "unwellie",
+      "weight": 3
+    },
+    {
+      "dish": "Tea",
+      "mood": "unwellie",
+      "weight": 2
+    },
+    {
+      "dish": "Rajma Chawal",
+      "mood": "unwellie",
+      "weight": 1
+    },
+    {
+      "dish": "Pasta",
+      "mood": "happie",
+      "weight": 1
+    }
+  ],
+  "sellers": [
+    {
+      "id": 1,
+      "name": "F",
+      "address": "F",
+      "items": "F"
+    },
+    {
+      "id": 2,
+      "name": "Tea Corner",
+      "address": "Sector 10",
+      "items": "Tea, Snacks"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Tester",
+      "email": "tester@example.com",
+      "password_hash": "3de9273e88d1153033fccc7574cc168a51022a55738bff6727ae581e8c19380f"
+    }
+  ],
+  "sessions": {
+    "7625f8d89a9feca0901095a2a10dd9f9": "tester@example.com",
+    "717558fdc85312bd73499e938e0e9569": "tester@example.com"
+  },
+  "feedback": [
+    {
+      "token": null,
+      "restaurant": "Pizza Hut",
+      "food": "Pasta",
+      "mood": "happie",
+      "rating": 4.8
+    }
+  ]
+}
