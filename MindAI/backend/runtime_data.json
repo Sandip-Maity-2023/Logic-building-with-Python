@@ -5,9 +5,9 @@
       "name": "Pizza Hut",
       "latitude": 28.63,
       "longitude": 77.21,
-      "rating": 3.72,
+      "rating": 3.76,
       "cost_for_two": 900,
-      "rating_count": 6,
+      "rating_count": 7,
       "dishes": [
         "garlicbread",
         "pasta",
@@ -505,6 +505,11 @@
       "dish": "Pasta",
       "mood": "happie",
       "weight": 1
+    },
+    {
+      "dish": "Ice Cream",
+      "mood": "happie",
+      "weight": 1
     }
   ],
   "sellers": [
@@ -540,6 +545,13 @@
       "food": "Pasta",
       "mood": "happie",
       "rating": 4.8
+    },
+    {
+      "token": null,
+      "restaurant": "Pizza Hut",
+      "food": "Ice Cream",
+      "mood": "happie",
+      "rating": 4.0
     }
   ]
 }
