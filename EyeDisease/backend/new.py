@@ -7,8 +7,10 @@ import torch
 import torch.nn as nn
 from sklearn.metrics import classification_report
 from torch.utils.data import DataLoader, Subset, random_split
-from torchvision import datasets, models, transforms
+from torchvision import datasets, transforms
 from tqdm import tqdm
+
+from model_def import HybridModel
 
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -111,37 +113,6 @@ def build_dataloaders(dataset_path):
     class_weights = torch.tensor(class_weights, dtype=torch.float32, device=DEVICE)
 
     return train_loader, val_loader, test_loader, class_names, num_classes, class_weights
-
-
-class HybridModel(nn.Module):
-    def __init__(self, num_classes):
-        super().__init__()
-
-        weights = models.MobileNet_V3_Small_Weights.DEFAULT
-        backbone = models.mobilenet_v3_small(weights=weights)
-        self.backbone = backbone.features
-        self.pool = nn.AdaptiveAvgPool2d((1, 1))
-        self.projection = nn.Linear(576, 576)
-
-        self.transformer = nn.TransformerEncoder(
-            nn.TransformerEncoderLayer(
-                d_model=576,
-                nhead=8,
-                batch_first=True,
-            ),
-            num_layers=4,
-        )
-
-        self.fc = nn.Linear(576, num_classes)
-
-    def forward(self, x):
-        feat = self.backbone(x)
-        batch_size, channels, height, width = feat.shape
-        feat = feat.flatten(2).transpose(1, 2)
-        feat = self.projection(feat)
-        out = self.transformer(feat)
-        out = out.mean(dim=1)
-        return self.fc(out)
 
 
 def train_epoch(model, train_loader, criterion, optimizer):

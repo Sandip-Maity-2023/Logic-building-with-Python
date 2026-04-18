@@ -5,7 +5,7 @@ import torch
 from PIL import Image
 from torchvision import transforms
 
-from new import HybridModel
+from model_def import HybridModel
 
 
 BASE_DIR = Path(__file__).resolve().parent
