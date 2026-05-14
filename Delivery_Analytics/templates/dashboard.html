@@ -1,0 +1,79 @@
+# 8. templates/dashboard.html
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1 class="mb-4">Dashboard</h1>
+
+<div class="row">
+
+    <div class="col-md-3">
+        <div class="card p-3 shadow-sm">
+            <h5>Total Restaurants</h5>
+            <h2>{{ total_restaurants }}</h2>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card p-3 shadow-sm">
+            <h5>Average Rating</h5>
+            <h2>{{ avg_rating }}</h2>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card p-3 shadow-sm">
+            <h5>Maximum Votes</h5>
+            <h2>{{ max_votes }}</h2>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card p-3 shadow-sm">
+            <h5>Top Restaurant</h5>
+            <h6>{{ top_restaurant }}</h6>
+        </div>
+    </div>
+
+</div>
+
+<hr>
+
+<div class="row mt-4">
+
+    <div class="col-md-6">
+        <img src="{{ url_for('static', filename='charts/restaurant_types.png') }}" class="img-fluid">
+    </div>
+
+    <div class="col-md-6">
+        <img src="{{ url_for('static', filename='charts/ratings_distribution.png') }}" class="img-fluid">
+    </div>
+
+</div>
+
+<div class="row mt-4">
+
+    <div class="col-md-6">
+        <img src="{{ url_for('static', filename='charts/online_orders.png') }}" class="img-fluid">
+    </div>
+
+    <div class="col-md-6">
+        <img src="{{ url_for('static', filename='charts/heatmap.png') }}" class="img-fluid">
+    </div>
+
+</div>
+
+<div class="mt-5">
+
+    <a href="/search/{{ filename }}" class="btn btn-primary">
+        Search Restaurants
+    </a>
+
+    <a href="/recommend/{{ filename }}" class="btn btn-success">
+        Recommendations
+    </a>
+
+</div>
+
+{% endblock %}

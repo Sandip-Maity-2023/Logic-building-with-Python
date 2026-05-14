@@ -1,0 +1,47 @@
+# 10. templates/recommendations.html
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Restaurant Recommendations</h2>
+
+<form method="POST">
+
+    <div class="mb-3">
+        <input type="text" name="cuisine" class="form-control" placeholder="Enter cuisine/type">
+    </div>
+
+    <button type="submit" class="btn btn-success">
+        Get Recommendations
+    </button>
+
+</form>
+
+<br>
+
+{% if recommendations %}
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Name</th>
+        <th>Rating</th>
+        <th>Votes</th>
+    </tr>
+
+    {% for row in recommendations %}
+
+    <tr>
+        <td>{{ row.name }}</td>
+        <td>{{ row.rate }}</td>
+        <td>{{ row.votes }}</td>
+    </tr>
+
+    {% endfor %}
+
+</table>
+
+{% endif %}
+
+{% endblock %}

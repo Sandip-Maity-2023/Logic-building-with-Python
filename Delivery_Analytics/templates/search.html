@@ -1,0 +1,27 @@
+# 9. templates/search.html
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>Search Restaurants</h2>
+
+<form method="POST">
+
+    <div class="mb-3">
+        <input type="text" name="restaurant" class="form-control" placeholder="Enter restaurant name">
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        Search
+    </button>
+
+</form>
+
+<br>
+
+{% if tables %}
+    {{ tables|safe }}
+{% endif %}
+
+{% endblock %}
