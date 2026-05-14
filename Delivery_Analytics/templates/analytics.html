@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block title %}Sentiment | Restaurant Analytics{% endblock %}
+
+{% block content %}
+<section class="page-head">
+    <div>
+        <p class="eyebrow">{{ filename }}</p>
+        <h1>Sentiment Analysis Dashboard</h1>
+    </div>
+</section>
+
+<section class="kpi-grid three">
+    <div class="kpi"><span>Positive</span><strong>{{ sentiment_counts.get("Positive", 0) }}</strong></div>
+    <div class="kpi"><span>Neutral</span><strong>{{ sentiment_counts.get("Neutral", 0) }}</strong></div>
+    <div class="kpi"><span>Negative</span><strong>{{ sentiment_counts.get("Negative", 0) }}</strong></div>
+</section>
+
+<section class="chart-grid two">
+    <div class="panel chart-panel">
+        <h2>Sentiment Mix</h2>
+        <div class="chart-frame"><canvas id="sentimentChart"></canvas></div>
+    </div>
+    <div class="panel chart-panel">
+        <h2>Rating Distribution</h2>
+        <div class="chart-frame"><canvas id="ratingChart"></canvas></div>
+    </div>
+</section>
+
+<section class="panel">
+    <div class="section-title">
+        <h2>Sentiment Samples</h2>
+    </div>
+    <div class="table-responsive">
+        <table class="table align-middle">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Rating</th>
+                    <th>Sentiment</th>
+                    <th>Votes</th>
+                    <th>Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in sentiment_rows %}
+                    <tr>
+                        <td>{{ row.name }}</td>
+                        <td>{{ row.rate }}</td>
+                        <td><span class="badge-soft {{ row.sentiment|lower }}">{{ row.sentiment }}</span></td>
+                        <td>{{ row.votes }}</td>
+                        <td>{{ row["listed_in(type)"] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+<script>
+const sentiment = {{ sentiment_chart|tojson }};
+const ratings = {{ rating_chart|tojson }};
+const commonOptions = {
+    responsive: true,
+    maintainAspectRatio: false,
+    resizeDelay: 150
+};
+
+new Chart(document.getElementById("sentimentChart"), {
+    type: "doughnut",
+    data: { labels: sentiment.labels, datasets: [{ data: sentiment.values, backgroundColor: ["#16a34a", "#f97316", "#dc2626"] }] },
+    options: commonOptions
+});
+
+new Chart(document.getElementById("ratingChart"), {
+    type: "bar",
+    data: { labels: ratings.labels, datasets: [{ data: ratings.values, backgroundColor: "#2563eb" }] },
+    options: { ...commonOptions, plugins: { legend: { display: false } } }
+});
+</script>
+{% endblock %}

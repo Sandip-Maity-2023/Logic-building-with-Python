@@ -1,47 +1,51 @@
-# 10. templates/recommendations.html
-
-{% extends 'base.html' %}
+{% extends "base.html" %}
+{% block title %}Recommendations | Restaurant Analytics{% endblock %}
 
 {% block content %}
-
-<h2>Restaurant Recommendations</h2>
-
-<form method="POST">
-
-    <div class="mb-3">
-        <input type="text" name="cuisine" class="form-control" placeholder="Enter cuisine/type">
+<section class="page-head">
+    <div>
+        <p class="eyebrow">{{ filename }}</p>
+        <h1>Restaurant Recommendation System</h1>
     </div>
+</section>
 
-    <button type="submit" class="btn btn-success">
-        Get Recommendations
-    </button>
-
+<form class="panel filter-grid" method="post">
+    <select class="form-select" name="restaurant_type">
+        <option>All</option>
+        {% for type in types %}
+            <option value="{{ type }}" {% if preferences.restaurant_type == type %}selected{% endif %}>{{ type }}</option>
+        {% endfor %}
+    </select>
+    <select class="form-select" name="online_order">
+        <option>All</option>
+        <option {% if preferences.online_order == "Yes" %}selected{% endif %}>Yes</option>
+        <option {% if preferences.online_order == "No" %}selected{% endif %}>No</option>
+    </select>
+    <select class="form-select" name="book_table">
+        <option>All</option>
+        <option {% if preferences.book_table == "Yes" %}selected{% endif %}>Yes</option>
+        <option {% if preferences.book_table == "No" %}selected{% endif %}>No</option>
+    </select>
+    <input class="form-control" type="number" min="0" name="max_cost" value="{{ preferences.max_cost }}" placeholder="Max cost">
+    <input class="form-control" type="number" min="0" max="5" step="0.1" name="min_rating" value="{{ preferences.min_rating }}" placeholder="Min rating">
+    <button class="btn btn-success" type="submit">Recommend</button>
 </form>
 
-<br>
-
-{% if recommendations %}
-
-<table class="table table-bordered">
-
-    <tr>
-        <th>Name</th>
-        <th>Rating</th>
-        <th>Votes</th>
-    </tr>
-
+<section class="recommendation-grid">
     {% for row in recommendations %}
-
-    <tr>
-        <td>{{ row.name }}</td>
-        <td>{{ row.rate }}</td>
-        <td>{{ row.votes }}</td>
-    </tr>
-
+        <article class="restaurant-card">
+            <div>
+                <h2>{{ row.name }}</h2>
+                <p>{{ row["listed_in(type)"] }} - Rs {{ row["approx_cost(for two people)"] }} for two</p>
+            </div>
+            <div class="score">{{ row.recommendation_score }}</div>
+            <div class="meta-row">
+                <span>Rating {{ row.rate }}/5</span>
+                <span>{{ row.votes }} votes</span>
+                <span>Online {{ row.online_order }}</span>
+                <span>Table {{ row.book_table }}</span>
+            </div>
+        </article>
     {% endfor %}
-
-</table>
-
-{% endif %}
-
+</section>
 {% endblock %}

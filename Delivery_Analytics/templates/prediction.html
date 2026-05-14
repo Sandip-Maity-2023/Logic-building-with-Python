@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}Prediction | Restaurant Analytics{% endblock %}
+
+{% block content %}
+<section class="page-head">
+    <div>
+        <p class="eyebrow">{{ filename }}</p>
+        <h1>Machine Learning Prediction App</h1>
+    </div>
+</section>
+
+<section class="prediction-layout">
+    <form class="panel prediction-form" method="post">
+        <label>Expected rating
+            <input class="form-control" type="number" name="rating" value="{{ form.rating }}" min="0" max="5" step="0.1">
+        </label>
+        <label>Expected votes
+            <input class="form-control" type="number" name="votes" value="{{ form.votes }}" min="0">
+        </label>
+        <label>Cost for two
+            <input class="form-control" type="number" name="cost" value="{{ form.cost }}" min="0">
+        </label>
+        <label>Online order
+            <select class="form-select" name="online_order">
+                <option {% if form.online_order == "Yes" %}selected{% endif %}>Yes</option>
+                <option {% if form.online_order == "No" %}selected{% endif %}>No</option>
+            </select>
+        </label>
+        <label>Book table
+            <select class="form-select" name="book_table">
+                <option {% if form.book_table == "Yes" %}selected{% endif %}>Yes</option>
+                <option {% if form.book_table == "No" %}selected{% endif %}>No</option>
+            </select>
+        </label>
+        <button class="btn btn-primary" type="submit">Predict Success</button>
+    </form>
+
+    <div class="panel prediction-result">
+        <span>Predicted success score</span>
+        {% if prediction is not none %}
+            <strong>{{ prediction }}%</strong>
+            <div class="meter"><div style="width: {{ prediction }}%"></div></div>
+        {% else %}
+            <strong>Ready</strong>
+            <div class="meter"><div style="width: 0%"></div></div>
+        {% endif %}
+    </div>
+</section>
+{% endblock %}

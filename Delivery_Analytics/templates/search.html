@@ -1,27 +1,65 @@
-# 9. templates/search.html
-
-{% extends 'base.html' %}
+{% extends "base.html" %}
+{% block title %}Search | Restaurant Analytics{% endblock %}
 
 {% block content %}
-
-<h2>Search Restaurants</h2>
-
-<form method="POST">
-
-    <div class="mb-3">
-        <input type="text" name="restaurant" class="form-control" placeholder="Enter restaurant name">
+<section class="page-head">
+    <div>
+        <p class="eyebrow">{{ filename }}</p>
+        <h1>Search & Filter Restaurants</h1>
     </div>
+</section>
 
-    <button type="submit" class="btn btn-primary">
-        Search
-    </button>
-
+<form class="panel filter-grid" method="get">
+    <input class="form-control" type="search" name="q" value="{{ filters.q }}" placeholder="Restaurant name">
+    <select class="form-select" name="type">
+        <option>All</option>
+        {% for type in types %}
+            <option value="{{ type }}" {% if filters.type == type %}selected{% endif %}>{{ type }}</option>
+        {% endfor %}
+    </select>
+    <select class="form-select" name="online_order">
+        <option>All</option>
+        <option {% if filters.online_order == "Yes" %}selected{% endif %}>Yes</option>
+        <option {% if filters.online_order == "No" %}selected{% endif %}>No</option>
+    </select>
+    <input class="form-control" type="number" min="0" max="5" step="0.1" name="min_rating" value="{{ filters.min_rating }}" placeholder="Min rating">
+    <input class="form-control" type="number" min="0" name="max_cost" value="{{ filters.max_cost }}" placeholder="Max cost">
+    <button class="btn btn-primary" type="submit">Filter</button>
 </form>
 
-<br>
-
-{% if tables %}
-    {{ tables|safe }}
-{% endif %}
-
+<section class="panel">
+    <div class="section-title">
+        <h2>{{ count }} matching restaurants</h2>
+    </div>
+    <div class="table-responsive">
+        <table class="table align-middle">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Rating</th>
+                    <th>Sentiment</th>
+                    <th>Votes</th>
+                    <th>Cost</th>
+                    <th>Online</th>
+                    <th>Table</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in results %}
+                    <tr>
+                        <td>{{ row.name }}</td>
+                        <td>{{ row["listed_in(type)"] }}</td>
+                        <td>{{ row.rate }}</td>
+                        <td><span class="badge-soft {{ row.sentiment|lower }}">{{ row.sentiment }}</span></td>
+                        <td>{{ row.votes }}</td>
+                        <td>Rs {{ row["approx_cost(for two people)"] }}</td>
+                        <td>{{ row.online_order }}</td>
+                        <td>{{ row.book_table }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
 {% endblock %}
