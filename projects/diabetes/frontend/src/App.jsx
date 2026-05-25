@@ -42,7 +42,7 @@ function App() {
 
       const response = await axios.post(
 
-        "http://127.0.0.1:5000/predict",
+        "https://logic-building-with-python.onrender.com/predict",
 
         formData
 
