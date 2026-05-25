@@ -45,6 +45,11 @@ def diabetes_prediction(input_data):
 # =========================
 # API ROUTE
 # =========================
+@app.route('/')
+
+def home():
+
+    return "Diabetes Prediction API Running"
 
 @app.route('/predict', methods=['POST'])
 
