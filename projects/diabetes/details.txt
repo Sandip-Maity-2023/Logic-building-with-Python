@@ -1,5 +1,7 @@
 https://logic-building-with-python-iza9.vercel.app/
 
+https://logic-building-with-python-shq6.vercel.app/
+
 npx create-react-app frontend
 
 npm create vite@latest frontend
