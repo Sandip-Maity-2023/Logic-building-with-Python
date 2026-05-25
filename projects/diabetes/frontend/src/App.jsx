@@ -3,6 +3,82 @@ import axios from "axios";
 
 function App() {
 
+  // =========================
+  // FIELD CONFIGURATION
+  // =========================
+
+  const fields = [
+
+    {
+      name: "Pregnancies",
+      label: "Number of Pregnancies",
+      unit: "count",
+      min: 0,
+      max: 20
+    },
+
+    {
+      name: "Glucose",
+      label: "Glucose Level",
+      unit: "mg/dL",
+      min: 70,
+      max: 200
+    },
+
+    {
+      name: "BloodPressure",
+      label: "Blood Pressure",
+      unit: "mmHg",
+      min: 40,
+      max: 140
+    },
+
+    {
+      name: "SkinThickness",
+      label: "Skin Thickness",
+      unit: "mm",
+      min: 5,
+      max: 99
+    },
+
+    {
+      name: "Insulin",
+      label: "Insulin Level",
+      unit: "mu U/ml",
+      min: 15,
+      max: 300
+    },
+
+    {
+      name: "BMI",
+      label: "Body Mass Index",
+      unit: "kg/m²",
+      min: 10,
+      max: 60
+    },
+
+    {
+      name: "DiabetesPedigreeFunction",
+      label: "Diabetes Pedigree Function",
+      unit: "score",
+      min: 0,
+      max: 3
+    },
+
+    {
+      name: "Age",
+      label: "Age",
+      unit: "years",
+      min: 18,
+      max: 100
+    }
+
+  ];
+
+  // =========================
+  // STATE
+  // =========================
+
   const [formData, setFormData] = useState({
 
     Pregnancies: "",
@@ -22,6 +98,10 @@ function App() {
 
   const [loading, setLoading] = useState(false);
 
+  // =========================
+  // HANDLE INPUT
+  // =========================
+
   const handleChange = (e) => {
 
     setFormData({
@@ -31,6 +111,10 @@ function App() {
 
     });
   };
+
+  // =========================
+  // SUBMIT
+  // =========================
 
   const handleSubmit = async (e) => {
 
@@ -65,6 +149,10 @@ function App() {
     setLoading(false);
   };
 
+  // =========================
+  // UI
+  // =========================
+
   return (
 
     <div style={styles.container}>
@@ -91,12 +179,19 @@ function App() {
 
         <form onSubmit={handleSubmit}>
 
-          {Object.keys(formData).map((key) => (
+          {fields.map((field) => (
 
-            <div key={key} style={styles.inputGroup}>
+            <div key={field.name} style={styles.inputGroup}>
 
               <label style={styles.label}>
-                {key}
+
+                {field.label}
+
+                <span style={styles.unit}>
+                  {" "}
+                  ({field.unit})
+                </span>
+
               </label>
 
               <input
@@ -105,11 +200,15 @@ function App() {
 
                 step="any"
 
-                name={key}
+                name={field.name}
 
-                placeholder={`Enter ${key}`}
+                min={field.min}
 
-                value={formData[key]}
+                max={field.max}
+
+                placeholder={`${field.min} - ${field.max} ${field.unit}`}
+
+                value={formData[field.name]}
 
                 onChange={handleChange}
 
@@ -150,11 +249,23 @@ function App() {
 
         )}
 
+        <p style={styles.disclaimer}>
+
+          This AI-based prediction system is intended
+          for educational and risk assessment purposes
+          only and should not be considered a medical diagnosis.
+
+        </p>
+
       </div>
 
     </div>
   );
 }
+
+// =========================
+// STYLES
+// =========================
 
 const styles = {
 
@@ -200,7 +311,7 @@ const styles = {
 
     width: "100%",
 
-    maxWidth: "500px",
+    maxWidth: "550px",
 
     padding: "35px",
 
@@ -270,6 +381,15 @@ const styles = {
     fontSize: "14px"
   },
 
+  unit: {
+
+    color: "#d0d7de",
+
+    fontSize: "13px",
+
+    fontWeight: "400"
+  },
+
   input: {
 
     width: "100%",
@@ -331,9 +451,7 @@ const styles = {
     background:
       "rgba(255,255,255,0.15)",
 
-    textAlign: "center",
-
-    animation: "fadeIn 0.5s ease"
+    textAlign: "center"
   },
 
   resultText: {
@@ -348,6 +466,19 @@ const styles = {
     color: "#dfe9f3",
 
     fontSize: "16px"
+  },
+
+  disclaimer: {
+
+    marginTop: "20px",
+
+    color: "#dfe9f3",
+
+    fontSize: "13px",
+
+    textAlign: "center",
+
+    lineHeight: "1.6"
   }
 };
 

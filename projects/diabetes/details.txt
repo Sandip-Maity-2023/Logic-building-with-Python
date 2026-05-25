@@ -1,3 +1,5 @@
+https://logic-building-with-python-iza9.vercel.app/
+
 npx create-react-app frontend
 
 npm create vite@latest frontend
@@ -44,6 +46,22 @@ pickle.dump(scaler, open('scaler.sav', 'wb'))
 
 COLAB
 https://colab.research.google.com/drive/1ZnrBX21rBwJ7RsifLnscNJxcSY-Ol2LV#scrollTo=M04-5fGf8Avi
+
+After Deployment
+
+Replace:
+
+http://127.0.0.1:5000/predict
+
+with:
+
+https://your-backend.onrender.com/predict
+
+cd frontend
+
+npm install
+
+npm install axios
 
 
 
