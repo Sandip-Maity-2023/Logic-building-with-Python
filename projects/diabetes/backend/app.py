@@ -12,7 +12,7 @@ CORS(app)
 # LOAD MODEL & SCALER
 # =========================
 
-model = pickle.load(open('trained_model.sav', 'rb'))
+model = pickle.load(open('trained_model2.sav', 'rb'))
 
 scaler = pickle.load(open('scaler.sav', 'rb'))
 
@@ -78,5 +78,4 @@ def predict():
 # =========================
 
 if __name__ == '__main__':
-
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)
