@@ -7,3 +7,63 @@ https://logic-building-with-python.onrender.com
 srv-d8a3labeo5us739daong (serviceID)
 
 
+
+frontend: vercel
+backend: render
+React + flask
+
+cd backend
+py app.py
+
+cd frontend
+npm run dev
+
+Diabetes-Prediction/
+│
+├── backend/
+│   ├── app.py
+│   ├── trained_model.sav
+│   ├── scaler.sav
+│   ├── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│
+└── README.md
+
+| Layer          | Platform                                            |
+| -------------- | --------------------------------------------------- |
+| React Frontend | [Vercel](https://vercel.com?utm_source=chatgpt.com) |
+| Flask Backend  | [Render](https://render.com?utm_source=chatgpt.com) |
+| Source Code    | [GitHub](https://github.com?utm_source=chatgpt.com) |
+
+pip install flask flask-cors numpy scikit-learn
+pickle.dump(classifier, open('trained_model.sav', 'wb'))
+pickle.dump(scaler, open('scaler.sav', 'wb'))
+
+COLAB
+https://colab.research.google.com/drive/1ZnrBX21rBwJ7RsifLnscNJxcSY-Ol2LV#scrollTo=M04-5fGf8Avi
+
+
+
+| Field          | Value                           |
+| -------------- | ------------------------------- |
+| Name           | diabetes-backend                |
+| Region         | Singapore                       |
+| Branch         | main                            |
+| Root Directory | projects/diabetes/backend       |
+| Runtime        | Python 3                        |
+| Build Command  | pip install -r requirements.txt |
+| Start Command  | gunicorn app:app                |
+
+
+| Setting          | Value                      |
+| ---------------- | -------------------------- |
+| Framework Preset | Vite                       |
+| Root Directory   | projects/diabetes/frontend |
+| Build Command    | npm run build              |
+| Output Directory | dist                       |
+
+
+https://chatgpt.com/c/6a138892-7c18-8323-85ec-1239eb17c4ae

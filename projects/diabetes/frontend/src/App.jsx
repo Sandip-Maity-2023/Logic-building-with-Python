@@ -69,17 +69,35 @@ function App() {
 
     <div style={styles.container}>
 
+      <div style={styles.overlay}></div>
+
       <div style={styles.card}>
 
-        <h1 style={styles.title}>
-          Diabetes Prediction System
-        </h1>
+        <div style={styles.header}>
+
+          <div style={styles.icon}>
+            🩺
+          </div>
+
+          <h1 style={styles.title}>
+            Diabetes Prediction System
+          </h1>
+
+          <p style={styles.subtitle}>
+            AI-powered health risk prediction
+          </p>
+
+        </div>
 
         <form onSubmit={handleSubmit}>
 
           {Object.keys(formData).map((key) => (
 
             <div key={key} style={styles.inputGroup}>
+
+              <label style={styles.label}>
+                {key}
+              </label>
 
               <input
 
@@ -89,7 +107,7 @@ function App() {
 
                 name={key}
 
-                placeholder={key}
+                placeholder={`Enter ${key}`}
 
                 value={formData[key]}
 
@@ -105,9 +123,12 @@ function App() {
 
           ))}
 
-          <button type="submit" style={styles.button}>
+          <button
+            type="submit"
+            style={styles.button}
+          >
 
-            {loading ? "Predicting..." : "Predict"}
+            {loading ? "Predicting..." : "Predict Diabetes"}
 
           </button>
 
@@ -117,9 +138,11 @@ function App() {
 
           <div style={styles.resultBox}>
 
-            <h2>{result}</h2>
+            <h2 style={styles.resultText}>
+              {result}
+            </h2>
 
-            <p>
+            <p style={styles.confidence}>
               Confidence: {confidence}%
             </p>
 
@@ -137,84 +160,194 @@ const styles = {
 
   container: {
 
+    minHeight: "100vh",
+
     display: "flex",
 
     justifyContent: "center",
 
     alignItems: "center",
 
-    minHeight: "100vh",
+    background:
+      "linear-gradient(135deg, #1e3c72 0%, #2a5298 100%)",
 
-    backgroundColor: "#f4f4f4"
+    position: "relative",
 
+    overflow: "hidden",
+
+    padding: "20px"
+  },
+
+  overlay: {
+
+    position: "absolute",
+
+    width: "100%",
+
+    height: "100%",
+
+    background:
+      "rgba(255,255,255,0.03)",
+
+    backdropFilter: "blur(2px)"
   },
 
   card: {
 
-    backgroundColor: "white",
+    position: "relative",
 
-    padding: "30px",
+    zIndex: 10,
 
-    borderRadius: "10px",
+    width: "100%",
 
-    width: "400px",
+    maxWidth: "500px",
 
-    boxShadow: "0px 0px 10px rgba(0,0,0,0.2)"
+    padding: "35px",
 
+    borderRadius: "20px",
+
+    background:
+      "rgba(255,255,255,0.12)",
+
+    backdropFilter: "blur(12px)",
+
+    border:
+      "1px solid rgba(255,255,255,0.2)",
+
+    boxShadow:
+      "0 8px 32px rgba(0,0,0,0.3)"
+  },
+
+  header: {
+
+    textAlign: "center",
+
+    marginBottom: "25px"
+  },
+
+  icon: {
+
+    fontSize: "50px",
+
+    marginBottom: "10px"
   },
 
   title: {
 
-    textAlign: "center",
+    color: "white",
 
-    marginBottom: "20px"
+    fontSize: "32px",
 
+    fontWeight: "700",
+
+    marginBottom: "10px",
+
+    letterSpacing: "1px"
+  },
+
+  subtitle: {
+
+    color: "#dfe9f3",
+
+    fontSize: "15px"
   },
 
   inputGroup: {
 
-    marginBottom: "15px"
+    marginBottom: "18px"
+  },
 
+  label: {
+
+    display: "block",
+
+    marginBottom: "8px",
+
+    color: "white",
+
+    fontWeight: "500",
+
+    fontSize: "14px"
   },
 
   input: {
 
     width: "100%",
 
-    padding: "10px",
+    padding: "14px",
 
-    borderRadius: "5px",
+    borderRadius: "10px",
 
-    border: "1px solid #ccc"
+    border: "none",
 
+    outline: "none",
+
+    fontSize: "15px",
+
+    background:
+      "rgba(255,255,255,0.18)",
+
+    color: "white",
+
+    backdropFilter: "blur(5px)",
+
+    boxSizing: "border-box"
   },
 
   button: {
 
     width: "100%",
 
-    padding: "12px",
+    padding: "15px",
+
+    marginTop: "10px",
 
     border: "none",
 
-    borderRadius: "5px",
+    borderRadius: "12px",
 
-    backgroundColor: "#007bff",
+    background:
+      "linear-gradient(135deg,#00c6ff,#0072ff)",
 
     color: "white",
 
-    fontSize: "16px",
+    fontSize: "17px",
 
-    cursor: "pointer"
+    fontWeight: "600",
 
+    cursor: "pointer",
+
+    transition: "0.3s"
   },
 
   resultBox: {
 
-    marginTop: "20px",
+    marginTop: "25px",
 
-    textAlign: "center"
+    padding: "20px",
 
+    borderRadius: "15px",
+
+    background:
+      "rgba(255,255,255,0.15)",
+
+    textAlign: "center",
+
+    animation: "fadeIn 0.5s ease"
+  },
+
+  resultText: {
+
+    color: "#ffffff",
+
+    marginBottom: "10px"
+  },
+
+  confidence: {
+
+    color: "#dfe9f3",
+
+    fontSize: "16px"
   }
 };
 
